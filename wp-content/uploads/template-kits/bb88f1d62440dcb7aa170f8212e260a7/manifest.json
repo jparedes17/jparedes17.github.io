@@ -1,0 +1,861 @@
+{
+    "manifest_version": "1.0.19",
+    "title": "Porka",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Case Study",
+            "screenshot": "screenshots\/case-study.jpg",
+            "source": "templates\/case-study.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/case-study\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/single-post\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Price",
+            "screenshot": "screenshots\/price.jpg",
+            "source": "templates\/price.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/price\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Detail",
+            "screenshot": "screenshots\/service-detail.jpg",
+            "source": "templates\/service-detail.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/service-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service",
+            "screenshot": "screenshots\/service.jpg",
+            "source": "templates\/service.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templatekit.kotakkuning.com\/porka\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.1.6",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.0.10",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor - Header, Footer & Blocks",
+            "version": "1.5.6",
+            "file": "header-footer-elementor\/header-footer-elementor.php",
+            "author": "Brainstorm Force, Nikhil Chavan"
+        },
+        {
+            "name": "Contact Form 7",
+            "version": "5.3.2",
+            "file": "contact-form-7\/wp-contact-form-7.php",
+            "author": "Takayuki Miyoshi"
+        }
+    ],
+    "images": [
+        {
+            "filename": "discussing-analytical-data-at-meeting-resize.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/discussing-analytical-data-at-meeting-resize-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 204234,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/discussing-analytical-data-at-meeting-P4UJ6HX"
+        },
+        {
+            "filename": "marketing-manager-making-marketing-distribution-ch-resize.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/marketing-manager-making-marketing-distribution-ch-resize-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 280967,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/marketing-manager-making-marketing-distribution-ch-SBX94N8"
+        },
+        {
+            "filename": "business-concept-tablet-with-information-chart-resize.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/business-concept-tablet-with-information-chart-resize-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 115038,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/business-concept-tablet-with-information-chart-2H24SK4"
+        },
+        {
+            "filename": "multicultural-group-of-marketing-managers-working-resize.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/multicultural-group-of-marketing-managers-working-resize-800x1050.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 211899,
+            "dimensions": [
+                1200,
+                1575
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/multicultural-group-of-marketing-managers-working--VWJFPFF"
+        },
+        {
+            "filename": "olena-sergienko-dIMJWLx1YbE-resize.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/olena-sergienko-dIMJWLx1YbE-resize-800x1066.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 140600,
+            "dimensions": [
+                1000,
+                1333
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/dIMJWLx1YbE"
+        },
+        {
+            "filename": "creative-business-team-listening-to-marketing-repo-small.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/creative-business-team-listening-to-marketing-repo-small-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 240964,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/creative-business-team-listening-to-marketing-repo-69K4LM9"
+        },
+        {
+            "filename": "entrepreneur-talking-to-employees-small1.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/entrepreneur-talking-to-employees-small1-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 198031,
+            "dimensions": [
+                1042,
+                693
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/entrepreneur-talking-to-employees-MD7KFW9"
+        },
+        {
+            "filename": "discussing-business-graphs-small.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/discussing-business-graphs-small-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study.json",
+                    "name": "Case Study"
+                }
+            ],
+            "filesize": 290098,
+            "dimensions": [
+                1500,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/discussing-business-graphs-3CJPJSP"
+        },
+        {
+            "filename": "multicultural-group-of-marketing-managers-working-small.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/multicultural-group-of-marketing-managers-working-small-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 190087,
+            "dimensions": [
+                1500,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/multicultural-group-of-marketing-managers-working--VWJFPFF"
+        },
+        {
+            "filename": "1d.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/1d-800x543.png",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 612077,
+            "dimensions": [
+                1500,
+                1019
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/brainstorming-flat-concept-vector-illustration-TFZ6DTL"
+        },
+        {
+            "filename": "Icon-1.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/Icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 21575,
+            "dimensions": [
+                620,
+                514
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/digital-marketing-and-business-M6Y7QX5"
+        },
+        {
+            "filename": "Icon-2.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/Icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 25312,
+            "dimensions": [
+                719,
+                485
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/digital-marketing-and-business-M6Y7QX5"
+        },
+        {
+            "filename": "Icon-4.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/Icon-4.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 21686,
+            "dimensions": [
+                628,
+                540
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/digital-marketing-and-business-M6Y7QX5"
+        },
+        {
+            "filename": "Icon-3.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/Icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 24876,
+            "dimensions": [
+                607,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/digital-marketing-and-business-M6Y7QX5"
+        },
+        {
+            "filename": "logo-11.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/logo-11.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 4795,
+            "dimensions": [
+                500,
+                281
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-10.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/logo-10.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 4340,
+            "dimensions": [
+                500,
+                281
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-8.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/logo-8.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 6346,
+            "dimensions": [
+                500,
+                281
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-6.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/logo-6.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 8557,
+            "dimensions": [
+                500,
+                281
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-5.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/logo-5.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 6293,
+            "dimensions": [
+                500,
+                281
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-4.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 6092,
+            "dimensions": [
+                500,
+                281
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-3.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 11389,
+            "dimensions": [
+                500,
+                281
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 5144,
+            "dimensions": [
+                500,
+                281
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "vector.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/vector-800x570.png",
+            "templates": [
+                {
+                    "source": "templates\/service.json",
+                    "name": "Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 393206,
+            "dimensions": [
+                1200,
+                855
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/digital-marketing-flat-concept-vector-illustration-Q65LXYM"
+        },
+        {
+            "filename": "portrait-of-young-handsome-man-posing-in-the-offic-resize.jpg",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/portrait-of-young-handsome-man-posing-in-the-offic-resize-800x782.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 203416,
+            "dimensions": [
+                1200,
+                1173
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-young-handsome-man-posing-in-the-offic-YG33XWR"
+        },
+        {
+            "filename": "sign.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/sign.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 19784,
+            "dimensions": [
+                500,
+                213
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "-"
+        },
+        {
+            "filename": "portrait-of-young-handsome-man-posing-in-studio-small.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/portrait-of-young-handsome-man-posing-in-studio-small-800x831.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 262168,
+            "dimensions": [
+                900,
+                935
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-young-handsome-man-posing-in-studio-NKNV2YR"
+        },
+        {
+            "filename": "liquid-circle-1.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/liquid-circle-1-800x803.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 50424,
+            "dimensions": [
+                934,
+                937
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "-"
+        },
+        {
+            "filename": "1a.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/1a.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 17601,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "-"
+        },
+        {
+            "filename": "2b.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/2b.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 19963,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "-"
+        },
+        {
+            "filename": "3.png",
+            "thumbnail_url": "https:\/\/templatekit.kotakkuning.com\/porka\/wp-content\/uploads\/sites\/2\/2021\/02\/3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 21971,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "-"
+        }
+    ]
+}
